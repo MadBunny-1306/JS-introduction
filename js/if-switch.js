@@ -17,3 +17,23 @@ function checkSpeed() {
     window.alert("Your speed is fine.");
   }
 }
+
+function checkSeason() {
+  var x = document.getElementById("myInput").value.toLowerCase();
+  switch (x) {
+    case "summer":
+      window.alert("It is summer time!");
+      break;
+    case "winter":
+      window.alert("It is winter time!");
+      break;
+    case "spring":
+      window.alert("It is spring time!");
+      break;
+    case "autumn":
+      window.alert("It is autumn time!");
+      break;
+    default:
+      window.alert("I do not recognize this");
+  }
+}
