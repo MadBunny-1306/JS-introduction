@@ -17,7 +17,7 @@ window.console.log("the type od message is: " + typeof message);
 
 var check = x == 6;
 window.console.log("the value of check is: " + check);
-window.console.log("the tupe of check is: " + typeof check);
+window.console.log("the type of check is: " + typeof check);
 
 var myArray = [1, 2, 3];
 window.console.log(myArray);
